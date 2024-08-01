@@ -1,0 +1,95 @@
+.App{
+  background-color: #f2f2f2;
+}
+.App-header {
+  background-color: #282c34;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  list-style: none;
+}
+ol{
+  list-style: circle;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.introducao{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -5px;
+}
+.text-introducao{
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-introducao{
+  width: 50%;
+}
+.habilidades{
+  background-color: #282c34;
+  padding: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+p{
+  text-align: justify;
+}
+.habilidadesOne{
+  width: 50%;
+}
+.habilidadesOtwo{
+  width: 50%;
+}
+.carreira{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -5px;
+}
+.text-carreira{
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-carreira{
+  width: 50%;
+}
+.ferramentas{
+  background-color: #282c34;
+  padding: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.ferramentasOne{
+  min-width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ferramentastwo{
+  width: 50%;
+}
+.ultimo{
+  list-style: none;
+}
